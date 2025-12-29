@@ -63,7 +63,7 @@ att_to_open_children =
 problem_end
 problem_start
 problem_id = 6
-source_file = Library/./Utah/Quantitative_Analysis/set4_Derivatives/pr_15.pg
+source_file = Library/Utah/Quantitative_Analysis/set4_Derivatives/pr_15.pg
 value = 1
 max_attempts = -1
 showMeAnother = 
@@ -73,7 +73,7 @@ att_to_open_children =
 problem_end
 problem_start
 problem_id = 7
-source_file = Library/./Utah/Quantitative_Analysis/set4_Derivatives/pr_16.pg
+source_file = Library/Utah/Quantitative_Analysis/set4_Derivatives/pr_16.pg
 value = 1
 max_attempts = -1
 showMeAnother = 

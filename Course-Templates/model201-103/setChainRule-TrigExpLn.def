@@ -83,7 +83,7 @@ att_to_open_children =
 problem_end
 problem_start
 problem_id = 8
-source_file = Library/./Utah/Quantitative_Analysis/set4_Derivatives/pr_17.pg
+source_file = Library/Utah/Quantitative_Analysis/set4_Derivatives/pr_17.pg
 value = 1
 max_attempts = -1
 showMeAnother = 
@@ -203,7 +203,7 @@ att_to_open_children =
 problem_end
 problem_start
 problem_id = 20
-source_file = Library/./UVA-Stew5e/setUVA-Stew5e-C03S05-ChainRule/3-5-27.pg
+source_file = Library/UVA-Stew5e/setUVA-Stew5e-C03S05-ChainRule/3-5-27.pg
 value = 1
 max_attempts = -1
 showMeAnother = 

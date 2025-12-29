@@ -203,7 +203,7 @@ att_to_open_children =
 problem_end
 problem_start
 problem_id = 20
-source_file = Library/./Utah/AP_Calculus_I/set2_Derivatives_and_Limits/1210s2p22.pg
+source_file = Library/Utah/AP_Calculus_I/set2_Derivatives_and_Limits/1210s2p22.pg
 value = 1
 max_attempts = -1
 showMeAnother = 

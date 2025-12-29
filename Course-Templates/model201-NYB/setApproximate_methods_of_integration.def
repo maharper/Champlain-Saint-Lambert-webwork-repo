@@ -43,7 +43,7 @@ att_to_open_children =
 problem_end
 problem_start
 problem_id = 4
-source_file = Library/./Utah/Calculus_II/set11_Conics_and_Polar_Coordinates/set11_pr5.pg
+source_file = Library/Utah/Calculus_II/set11_Conics_and_Polar_Coordinates/set11_pr5.pg
 value = 1
 max_attempts = -1
 showMeAnother = 

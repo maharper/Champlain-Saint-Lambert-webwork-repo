@@ -63,7 +63,7 @@ att_to_open_children =
 problem_end
 problem_start
 problem_id = 6
-source_file = Library/./Utah/AP_Calculus_I/set4_Graphing_and_Maximum-Minimum_Problems/1210set8p10.pg
+source_file = Library/Utah/AP_Calculus_I/set4_Graphing_and_Maximum-Minimum_Problems/1210set8p10.pg
 value = 1
 max_attempts = -1
 showMeAnother = 

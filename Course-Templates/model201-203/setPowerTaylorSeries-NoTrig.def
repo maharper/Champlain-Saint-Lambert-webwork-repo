@@ -43,7 +43,7 @@ att_to_open_children =
 problem_end
 problem_start
 problem_id = 4
-source_file = Library/./Utah/Calculus_II/set9_Infinite_Series/set9_pr5.pg
+source_file = Library/Utah/Calculus_II/set9_Infinite_Series/set9_pr5.pg
 value = 1
 max_attempts = -1
 showMeAnother = 

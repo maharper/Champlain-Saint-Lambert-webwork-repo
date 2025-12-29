@@ -83,7 +83,7 @@ att_to_open_children =
 problem_end
 problem_start
 problem_id = 8
-source_file = Library/./Utah/Calculus_II/set7_Infinite_Series/set7_pr6.pg
+source_file = Library/Utah/Calculus_II/set7_Infinite_Series/set7_pr6.pg
 value = 1
 max_attempts = -1
 showMeAnother = 

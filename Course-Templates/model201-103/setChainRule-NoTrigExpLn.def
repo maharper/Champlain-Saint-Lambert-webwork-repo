@@ -153,7 +153,7 @@ att_to_open_children =
 problem_end
 problem_start
 problem_id = 15
-source_file = Library/./maCalcDB/setDerivatives5ChainRule/s2_5_2f.pg
+source_file = Library/maCalcDB/setDerivatives5ChainRule/s2_5_2f.pg
 value = 1
 max_attempts = -1
 showMeAnother = 
