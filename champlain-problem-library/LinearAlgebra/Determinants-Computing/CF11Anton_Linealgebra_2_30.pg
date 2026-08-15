@@ -25,7 +25,7 @@ loadMacros("PG.pl",
            "PGchoicemacros.pl",
            "PGanswermacros.pl",
            "PGmatrixmacros.pl",
-	   "MathObjects.pl"
+	       "MathObjects.pl"
            );
 
 TEXT(beginproblem());
@@ -39,8 +39,9 @@ $c = random(2,6);
 $c2 = Compute("$c^2");
 $a = random(-$c2-6,-$c2-1);
 $d = Compute("-$c2-$a"); # should be >0
-$ans1 = Compute("t^2 + $d");
+
 $ans2 = Compute("0");
+$ans3 = Compute("0");
 
 $det = Compute("t^2+$d");
 
@@ -59,14 +60,14 @@ Find an expression for the determinant of the coefficient matrix \(A\) of this s
 $BR
 $BR
 $BCENTER
-\(\text{det}(A)\) = \{ans_rule{5}\}
+\(\text{det}(A)\) = \{ans_rule(5)\}
 $ECENTER
 $BR
 Use your previous answer to give the solutions for \(x\) and \(y\) of this system for all real values of \(t\).
 $BR
 $BR
 $BCENTER
-\(x =\) \{ans_rule{5}\} and  \(y =\) \{ans_rule{5}\}
+\(x =\) \{ans_rule(5)\} and  \(y =\) \{ans_rule(5)\}
 $ECENTER
 
 
@@ -75,8 +76,8 @@ END_TEXT
 
 Context()->normalStrings;
 
-ANS($ans1->cmp());
+ANS($det->cmp());
 ANS($ans2->cmp());
-ANS($ans2->cmp());
+ANS($ans3->cmp());
 
 ENDDOCUMENT() ;
