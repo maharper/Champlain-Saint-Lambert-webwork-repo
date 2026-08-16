@@ -62,16 +62,6 @@ sub proportion {
         ->cmp(tolType => 'absolute',tolerance => 0.002,);
 }
 
-$ansd = Compute(
-    sprintf("%0.0f",
-        normal_distr($d/100-0.5, mean=>$mean, deviation=>$sdev)
-    )
-    )->cmp(tolType => 'absolute',tolerance => 0.5,);
-
-$ansd1 = Compute(
-    normal_distr($d/100-0.5, mean=>$mean, deviation=>$sdev)
-    )->cmp(tolType => 'absolute',tolerance => 0.005,);
-
 ###########################
 #  Main text
 
