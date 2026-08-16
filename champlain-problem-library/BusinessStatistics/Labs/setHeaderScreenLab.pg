@@ -12,7 +12,7 @@ loadMacros(
 BEGIN_TEXT
 
 This is the WeBWorK part of ${BBOLD}Lab Assignment $setNumber${EBOLD}.
-It is due on : ${BBOLD}$formatedDueDate${EBOLD}.
+It is due on : ${BBOLD}$formattedDueDate${EBOLD}.
 
 $PAR
 This is where you do the WeBWorK part of your lab using your group login.

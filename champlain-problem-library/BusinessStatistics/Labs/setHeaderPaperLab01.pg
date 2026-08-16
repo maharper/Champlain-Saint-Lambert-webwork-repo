@@ -33,7 +33,7 @@ $BEGIN_ONE_COLUMN
 
 This is the WeBWorK part of ${BBOLD}Lab Assignment $setNumber${EBOLD}
 for $studentName. ${BR}
-It is due on : ${BBOLD}$formatedDueDate${EBOLD}.
+It is due on : ${BBOLD}$formattedDueDate${EBOLD}.
 
 \vspace{2ex}
 
