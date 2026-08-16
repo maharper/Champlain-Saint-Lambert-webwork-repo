@@ -52,11 +52,20 @@ COMMENT('No randomization (yet).');
 # csv data file link
 
 # Label datasets
+
     push(@bobs,"Bob's");
     push(@dougs,"Doug's");
 
 $csvlink = insertDataLink($PG,"Refrigerator Repair Data",(~~@bobs,~~@dougs,));
-# labels get popped back off during this operation
+
+pop(@bobs);
+pop(@dougs);
+
+# Prior to WW 2.20 labels were popped off the arrays by insertDataLink()
+#
+# With WW 2.20 the labels are longer popped off the arrays,
+# non-numerics in the data will cause errors in the statistics functions.
+# Pop any labels off the arrays after the datafile is created.
 
 ##########
 # Answers

@@ -58,6 +58,16 @@ COMMENT('No randomization.');
 
 $csvlink = insertDataLink($PG,'Effects of Odours on Sales Data',(~~@none,~~@lemon,~~@lavender));
 
+    pop(@none);
+    pop(@lemon);
+    pop(@lavender);
+
+# Prior to WW 2.20 labels were popped off the arrays by insertDataLink()
+#
+# With WW 2.20 the labels are longer popped off the arrays,
+# non-numerics in the data will cause errors in the statistics functions.
+# Pop any labels off the arrays after the datafile is created.
+
 ##########
 # Answers
 
